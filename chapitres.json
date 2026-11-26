@@ -1,4 +1,11 @@
 {
   "titre": "Fort Green Rock",
-  "chapitres": []
+  "chapitres": [
+    {
+      "id": "chapitre_000",
+      "titre": "Couverture",
+      "couverture": "chapitres/chapitre_000/planche_001.png",
+      "planches": ["chapitres/chapitre_000/planche_001.png"]
+    }
+  ]
 }
