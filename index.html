@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fort Green Rock</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="reader.js"></script>
+</head>
+<body>
+  <header><h1 id="titre">Fort Green Rock</h1><p>Les aventures, chapitre par chapitre.</p></header>
+  <main>
+    <p id="message" role="status">Chargement des chapitres…</p>
+    <section id="catalogue" aria-label="Chapitres" hidden></section>
+    <section id="lecteur" aria-label="Lecteur de BD" hidden>
+      <div class="toolbar"><button id="retour">Tous les chapitres</button><h2 id="chapitre"></h2></div>
+      <div class="navigation"><button id="precedent">← Précédente</button><span id="compteur" aria-live="polite"></span><button id="suivant">Suivante →</button></div>
+      <img id="planche" alt="" decoding="async">
+      <div class="navigation"><button id="precedent-bas">← Précédente</button><button id="suivant-bas">Suivante →</button></div>
+    </section>
+  </main>
+</body>
+</html>
