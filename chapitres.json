@@ -6,6 +6,19 @@
       "titre": "Couverture",
       "couverture": "chapitres/chapitre_000/planche_001.png",
       "planches": ["chapitres/chapitre_000/planche_001.png"]
+    },
+    {
+      "id": "chapitre_001",
+      "titre": "Le silence de GreenRock",
+      "planches": [
+        "chapitres/chapitre_001/planche_001.png",
+        "chapitres/chapitre_001/planche_002.png",
+        "chapitres/chapitre_001/planche_003.png",
+        "chapitres/chapitre_001/planche_004.png",
+        "chapitres/chapitre_001/planche_005.png",
+        "chapitres/chapitre_001/planche_006.png",
+        "chapitres/chapitre_001/planche_007.png"
+      ]
     }
   ]
 }
